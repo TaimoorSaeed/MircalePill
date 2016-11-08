@@ -1,14 +1,14 @@
 //
-//  MircalePillUITests.swift
-//  MircalePillUITests
+//  MiraclePillsUITests.swift
+//  MiraclePillsUITests
 //
-//  Created by Taimoor Saeed  on 16/10/2016.
+//  Created by Taimoor Saeed  on 05/11/2016.
 //  Copyright © 2016 Taimoor Saeed . All rights reserved.
 //
 
 import XCTest
 
-class MircalePillUITests: XCTestCase {
+class MiraclePillsUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

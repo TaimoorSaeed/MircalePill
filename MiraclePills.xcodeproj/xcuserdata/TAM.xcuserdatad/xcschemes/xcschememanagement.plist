@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MircalePill.xcscheme</key>
+		<key>MiraclePills.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>236EC05E1DB2FA4E009F16A2</key>
+		<key>234D454D1DCDA18500012D65</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>236EC0721DB2FA4F009F16A2</key>
+		<key>234D45611DCDA18500012D65</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>236EC07D1DB2FA4F009F16A2</key>
+		<key>234D456C1DCDA18600012D65</key>
 		<dict>
 			<key>primary</key>
 			<true/>

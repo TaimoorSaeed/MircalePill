@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MircalePill.xcodeproj">
+      location = "self:MiraclePills.xcodeproj">
    </FileRef>
 </Workspace>
