@@ -27,25 +27,25 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func stateButtonPressed(sender: AnyObject) {
-        statePicker.hidden = false
+    @IBAction func stateButtonPressed(_ sender: AnyObject) {
+        statePicker.isHidden = false
     }
     
-    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
     
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return states[row]
     }
     
-    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return states.count
     }
     
- func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-    statePickerBtn.setTitle(states[row], forState:UIControlState())
-    statePicker.hidden = true
+ func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+    statePickerBtn.setTitle(states[row], for:UIControlState())
+    statePicker.isHidden = true
 }
 }
 
