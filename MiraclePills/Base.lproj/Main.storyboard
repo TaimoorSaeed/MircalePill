@@ -96,8 +96,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="COUNTRY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KjY-m8-La0">
-                                <frame key="frameInset" minX="36" minY="550" width="303" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COUNTRY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KjY-m8-La0">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="gqA-Q1-0YJ"/>
                                 </constraints>
@@ -145,22 +144,13 @@
                                 </variation>
                             </pickerView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter country...." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s1g-hE-bst">
-                                <frame key="frameInset" minX="36" minY="573" width="303" height="30"/>
+                                <frame key="frameInset" minX="36" minY="568" width="303" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="a4S-ey-hQ9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="ZIP CODE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7a-ds-6Sz">
-                                <frame key="frameInset" minX="36" minY="606" width="303" height="22"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="22" id="fk0-yz-BUm"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter zip code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nUl-ue-3pU">
                                 <frame key="frameInset" minX="36" minY="629" width="303" height="30"/>
                                 <constraints>
@@ -169,6 +159,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="ZIP CODE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7a-ds-6Sz">
+                                <frame key="frameInset" minX="36" minY="599" width="303" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="fk0-yz-BUm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -186,11 +185,13 @@
                             <constraint firstItem="rDh-CC-1iZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="I6R-zq-RBT"/>
                             <constraint firstItem="K8s-4G-Tbc" firstAttribute="leading" secondItem="REP-JC-3Du" secondAttribute="leading" id="IQK-Vt-vgZ"/>
                             <constraint firstItem="K8s-4G-Tbc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="280" id="InP-ow-3Mc"/>
+                            <constraint firstItem="KjY-m8-La0" firstAttribute="centerY" secondItem="huo-mY-hcZ" secondAttribute="centerY" id="JFr-CJ-5GK"/>
                             <constraint firstItem="huo-mY-hcZ" firstAttribute="leading" secondItem="c0f-FI-9wy" secondAttribute="leading" id="MZo-Tj-w5S"/>
                             <constraint firstItem="OoP-Cz-Hdh" firstAttribute="centerX" secondItem="TeY-l8-gXi" secondAttribute="centerX" id="Qiz-xe-JaD"/>
                             <constraint firstItem="mAi-H7-CnY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="370" id="TgV-YW-7Ss"/>
                             <constraint firstItem="OoP-Cz-Hdh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="170" id="UHO-v2-nca"/>
                             <constraint firstItem="OoP-Cz-Hdh" firstAttribute="top" secondItem="gVc-HW-6SR" secondAttribute="bottom" constant="23" id="WXM-E7-ibV"/>
+                            <constraint firstItem="KjY-m8-La0" firstAttribute="trailing" secondItem="huo-mY-hcZ" secondAttribute="trailing" id="WdX-Hf-ZMN"/>
                             <constraint firstItem="TeY-l8-gXi" firstAttribute="top" secondItem="OoP-Cz-Hdh" secondAttribute="bottom" constant="8" symbolic="YES" id="Whj-wo-u4X"/>
                             <constraint firstItem="mAi-H7-CnY" firstAttribute="trailing" secondItem="ic3-Fh-AoC" secondAttribute="trailing" id="Wro-e8-Eo9"/>
                             <constraint firstItem="fIa-AG-ODe" firstAttribute="leading" secondItem="P3S-6R-MKo" secondAttribute="leading" id="Y3B-P1-Mi6"/>
@@ -205,6 +206,7 @@
                             <constraint firstItem="REP-JC-3Du" firstAttribute="trailing" secondItem="rDh-CC-1iZ" secondAttribute="trailing" id="u00-gr-Jt0"/>
                             <constraint firstItem="OoP-Cz-Hdh" firstAttribute="centerX" secondItem="rDh-CC-1iZ" secondAttribute="centerX" id="xVC-68-EBS"/>
                             <constraint firstItem="mAi-H7-CnY" firstAttribute="leading" secondItem="ic3-Fh-AoC" secondAttribute="leading" id="yeT-fP-QPQ"/>
+                            <constraint firstItem="KjY-m8-La0" firstAttribute="leading" secondItem="huo-mY-hcZ" secondAttribute="leading" id="zma-zI-BJf"/>
                             <constraint firstItem="P3S-6R-MKo" firstAttribute="leading" secondItem="huo-mY-hcZ" secondAttribute="leading" id="zrJ-LF-emK"/>
                         </constraints>
                     </view>
