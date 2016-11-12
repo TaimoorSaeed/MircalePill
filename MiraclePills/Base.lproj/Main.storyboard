@@ -153,7 +153,8 @@
                                 </constraints>
                                 <state key="normal" title="Button" image="buyNowBtn"/>
                                 <connections>
-                                    <action selector="buyNowPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dGx-Wd-yxf"/>
+                                    <action selector="sucessbtnpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lxT-8h-ztU"/>
+                                    <segue destination="ghC-2i-FFF" kind="showDetail" id="NpD-BY-7E9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -213,17 +214,46 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="countryFeild" destination="s1g-hE-bst" id="7tu-l3-AsZ"/>
+                        <outlet property="countryLabel" destination="KjY-m8-La0" id="uDA-yt-Rkw"/>
                         <outlet property="statePicker" destination="fIa-AG-ODe" id="fsn-TM-4Oq"/>
                         <outlet property="statePickerBtn" destination="P3S-6R-MKo" id="u48-Fe-gjk"/>
+                        <outlet property="zipFeild" destination="GCX-1v-s9j" id="IWm-Xp-lGi"/>
+                        <outlet property="zipLabel" destination="LFx-96-1Mq" id="upb-gf-7Ia"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="322.39999999999998" y="434.93253373313348"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="GoO-fn-u7Y">
+            <objects>
+                <viewController id="ghC-2i-FFF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="73P-vc-Jg9"/>
+                        <viewControllerLayoutGuide type="bottom" id="y2I-kc-Mor"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lr5-Or-9LY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="successIndicator" translatesAutoresizingMaskIntoConstraints="NO" id="EVf-KS-Awv">
+                                <frame key="frameInset" minX="67" minY="119" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gwz-F1-Ncu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057" y="435"/>
+        </scene>
     </scenes>
     <resources>
         <image name="buyNowBtn" width="225" height="45"/>
         <image name="miraclePillEmoji" width="90" height="90"/>
+        <image name="successIndicator" width="180" height="180"/>
     </resources>
 </document>
