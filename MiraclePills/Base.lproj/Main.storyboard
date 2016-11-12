@@ -147,6 +147,15 @@
                                     <constraint firstAttribute="height" constant="121" id="OYg-dO-d8t"/>
                                 </constraints>
                             </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QeL-ez-j5p">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="h8H-vm-Wis"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="buyNowBtn"/>
+                                <connections>
+                                    <action selector="buyNowPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dGx-Wd-yxf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -158,6 +167,7 @@
                             <constraint firstItem="OoP-Cz-Hdh" firstAttribute="centerX" secondItem="gVc-HW-6SR" secondAttribute="centerX" id="7XR-LS-K4U"/>
                             <constraint firstItem="s1g-hE-bst" firstAttribute="trailing" secondItem="K8s-4G-Tbc" secondAttribute="trailing" id="85d-Qn-kUt"/>
                             <constraint firstItem="REP-JC-3Du" firstAttribute="leading" secondItem="rDh-CC-1iZ" secondAttribute="leading" id="9Wd-yX-yzH"/>
+                            <constraint firstItem="QeL-ez-j5p" firstAttribute="centerX" secondItem="fIa-AG-ODe" secondAttribute="centerX" id="9mN-iI-7m9"/>
                             <constraint firstItem="s1g-hE-bst" firstAttribute="top" secondItem="KjY-m8-La0" secondAttribute="bottom" constant="1" id="BTP-I3-1v7"/>
                             <constraint firstItem="rDh-CC-1iZ" firstAttribute="top" secondItem="TeY-l8-gXi" secondAttribute="bottom" constant="20" id="Cgo-W2-YGQ"/>
                             <constraint firstItem="fIa-AG-ODe" firstAttribute="leading" secondItem="K8s-4G-Tbc" secondAttribute="leading" id="DaZ-nI-BA0"/>
@@ -187,6 +197,7 @@
                             <constraint firstItem="P3S-6R-MKo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="430" id="gge-rL-NB0"/>
                             <constraint firstItem="huo-mY-hcZ" firstAttribute="trailing" secondItem="c0f-FI-9wy" secondAttribute="trailing" id="iKV-aW-7Rb"/>
                             <constraint firstItem="Ux5-U4-pzS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="315" id="iPi-jz-13G"/>
+                            <constraint firstItem="QeL-ez-j5p" firstAttribute="top" secondItem="fIa-AG-ODe" secondAttribute="bottom" constant="8" id="jfL-HG-bob"/>
                             <constraint firstItem="c0f-FI-9wy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="370" id="k5L-sq-pnJ"/>
                             <constraint firstItem="GCX-1v-s9j" firstAttribute="leading" secondItem="s1g-hE-bst" secondAttribute="leading" id="krC-EC-ifA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rDh-CC-1iZ" secondAttribute="trailing" constant="20" id="mhM-Wz-QaV"/>
@@ -212,6 +223,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="buyNowBtn" width="225" height="45"/>
         <image name="miraclePillEmoji" width="90" height="90"/>
     </resources>
 </document>
