@@ -1,5 +1,6 @@
 ## Miracle App
-## Using Swift
+
+Learned working with textfeilds,images, constrains, autolayouts. 
 
 ![](animated.gif)
 
